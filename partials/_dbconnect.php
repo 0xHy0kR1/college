@@ -1,12 +1,11 @@
 <?php
-$showError = "false";
 $servername = "localhost";
+$username = "root";
 $password = "";
 $database = "health";
 
 $connection = mysqli_connect($servername, $username, $password, $database);
 
-echo "hi";
 
 // Die if connection was not successful
 if(!$connection){

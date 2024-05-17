@@ -31,7 +31,7 @@
 </head>
 
 <body>
-    <?php include '../partials/_dbconnect.php';?>
+    <?php include 'partials/_dbconnect.php';?>
     <!-- Topbar Start -->
     <div class="container-fluid py-2 border-bottom d-none d-lg-block">
         <div class="container">
